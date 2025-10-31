@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ListaDE
+comment1.params=
+comment1.target=boolean\ esVacia()
+comment1.text=\r\n\ si\ la\ lista\ no\ tiene\ datos,\ te\ retorna\ true,\ pero\ si\ tiene\ al\ menos\ un\ elemento\ te\ retorna\ false\r\n\ @param\ \r\n\ return\ boolean\r\n
+comment2.params=dato
+comment2.target=java.lang.Object\ insertar(java.lang.Object)
+comment2.text=\r\n\ inserta\ el\ dato\ en\ a\ lista\r\n\ @param\ T\ dato\r\n\ return\ nada\r\n
+comment3.params=
+comment3.target=int\ tamano()
+comment3.text=\r\n\ Te\ devuelve\ el\ tamano\ de\ la\ lista,\ si\ no\ tiene\ datos\ devuelve\ 0\r\n\ @param\r\n\ return\ el\ tamano\ int\r\n
+comment4.params=dato\ pos
+comment4.target=boolean\ reemplazar(java.lang.Object,\ int)
+comment4.text=\r\n\ busca\ la\ posicion\ pos\ y\ si\ existe\ la\ reemplaza\ con\ T\ dato,\ si\ no\ hace\ nada\r\n\ @param\ int\ pos,\ T\ dato\r\n\ return\ nada\r\n
+comment5.params=
+comment5.target=void\ clon()
+comment5.text=\r\n\ hace\ una\ copia\ de\ toda\ la\ lista,\ si\ no\ tiene\ datos\ hace\ nada\r\n\ @param\ \r\n\ return\ Lista\r\n
+comment6.params=dato\ pos
+comment6.target=boolean\ insertar(java.lang.Object,\ int)
+comment6.text=\r\n\ Inserta\ el\ T\ dato\ en\ la\ pos\ posicion\ si\ la\ posicion\ existe,\ si\ no\ hace\ nada\r\n\ @param\ T\ dato,\ int\ pos\ \r\n\ return\ boolean\ \r\n
+numComments=7
