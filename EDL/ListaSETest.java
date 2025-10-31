@@ -1,4 +1,4 @@
-package EstructurasDeDatis.EDL;
+package EstructurasDeDatos.EDL;
 
 
 

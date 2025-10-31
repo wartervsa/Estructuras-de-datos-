@@ -1,4 +1,4 @@
-package EstructurasDeDatis.EDL;
+package EstructurasDeDatos.EDL;
 
 public class ListaCDE<T> implements Lista<T>{
     /**
@@ -15,7 +15,31 @@ public class ListaCDE<T> implements Lista<T>{
      * return nada
      */
     public void insertar(T dato) {
+        
+    }
+    /**
+     * Si encuentra la pos posicion devuelve su dato, si no devuelve null
+     * @param
+     * return T dato
+     */
+    public T acceder(int pos) {
         return null;
+    }
+    /**
+     * Elimina el ultimo dato de la lista, si no tiene datos hace nada
+     * @param
+     * return nada
+     */
+    public void eliminar() {
+        
+    }
+    /**
+     * si encuentra la pos posicion elimina el dato y retorna true, si no retorna false
+     * @param int pos
+     * return boolean
+     */
+    public boolean eliminar(int pos) {
+        return false;
     }
     /**
      * Te devuelve el tamano de la lista, si no tiene datos devuelve 0
@@ -40,6 +64,22 @@ public class ListaCDE<T> implements Lista<T>{
      */
     public void clon() {
         
+    }
+    /**
+     * Si encuentra el T dato te retorna ese dato, si no retorna null
+     * @param T dato
+     * return boolean 
+     */
+    public boolean buscar(T dato) {
+        return false;
+    }
+    /**
+     * Si encuentra la pos posicion devuelve el dato, si no retorna null
+     * @param int pos 
+     * return T dato
+     */
+    public T buscar(int pos) {
+        return null;
     }
     /**
      * Inserta el T dato en la pos posicion si la posicion existe, si no hace nada

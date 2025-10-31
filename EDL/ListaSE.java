@@ -1,4 +1,4 @@
-package EstructurasDeDatis.EDL;
+package EstructurasDeDatos.EDL;
 
 public class ListaSE<T> implements Lista<T>{
     private         T ini;
